@@ -1,0 +1,14 @@
+{
+  "id": "tsc-zero",
+  "dialect": "tsc",
+  "shape": "zero errors",
+  "window_boundary": "none",
+  "command": "npx tsc --pretty false --noEmit -p tsconfig.json",
+  "exit_code": 0,
+  "tool": "tsc 5.9.3",
+  "chars": 0,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "pytest-fixture",
+  "dialect": "pytest",
+  "shape": "fixture setup error",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_fix.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 575,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_fix.py",
+        "line": null,
+        "name": "test_needs",
+        "summary": "RuntimeError: fixture broke"
+      }
+    ]
+  }
+}

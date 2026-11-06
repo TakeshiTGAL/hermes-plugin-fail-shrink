@@ -1,0 +1,1353 @@
+F401 [*] `unused_mod_0` imported but unused
+ --> auth.py:1:8
+  |
+1 | import unused_mod_0
+  |        ^^^^^^^^^^^^
+2 | import unused_mod_1
+3 | import unused_mod_2
+  |
+help: Remove unused import: `unused_mod_0`
+  |
+  - import unused_mod_0
+1 | import unused_mod_1
+  |
+
+F401 [*] `unused_mod_1` imported but unused
+ --> auth.py:2:8
+  |
+1 | import unused_mod_0
+2 | import unused_mod_1
+  |        ^^^^^^^^^^^^
+3 | import unused_mod_2
+4 | import unused_mod_3
+  |
+help: Remove unused import: `unused_mod_1`
+  |
+1 | import unused_mod_0
+  - import unused_mod_1
+2 | import unused_mod_2
+  |
+
+F401 [*] `unused_mod_2` imported but unused
+ --> auth.py:3:8
+  |
+1 | import unused_mod_0
+2 | import unused_mod_1
+3 | import unused_mod_2
+  |        ^^^^^^^^^^^^
+4 | import unused_mod_3
+5 | import unused_mod_4
+  |
+help: Remove unused import: `unused_mod_2`
+  |
+2 | import unused_mod_1
+  - import unused_mod_2
+3 | import unused_mod_3
+  |
+
+F401 [*] `unused_mod_3` imported but unused
+ --> auth.py:4:8
+  |
+2 | import unused_mod_1
+3 | import unused_mod_2
+4 | import unused_mod_3
+  |        ^^^^^^^^^^^^
+5 | import unused_mod_4
+6 | import unused_mod_5
+  |
+help: Remove unused import: `unused_mod_3`
+  |
+3 | import unused_mod_2
+  - import unused_mod_3
+4 | import unused_mod_4
+  |
+
+F401 [*] `unused_mod_4` imported but unused
+ --> auth.py:5:8
+  |
+3 | import unused_mod_2
+4 | import unused_mod_3
+5 | import unused_mod_4
+  |        ^^^^^^^^^^^^
+6 | import unused_mod_5
+7 | import unused_mod_6
+  |
+help: Remove unused import: `unused_mod_4`
+  |
+4 | import unused_mod_3
+  - import unused_mod_4
+5 | import unused_mod_5
+  |
+
+F401 [*] `unused_mod_5` imported but unused
+ --> auth.py:6:8
+  |
+4 | import unused_mod_3
+5 | import unused_mod_4
+6 | import unused_mod_5
+  |        ^^^^^^^^^^^^
+7 | import unused_mod_6
+8 | import unused_mod_7
+  |
+help: Remove unused import: `unused_mod_5`
+  |
+5 | import unused_mod_4
+  - import unused_mod_5
+6 | import unused_mod_6
+  |
+
+F401 [*] `unused_mod_6` imported but unused
+ --> auth.py:7:8
+  |
+5 | import unused_mod_4
+6 | import unused_mod_5
+7 | import unused_mod_6
+  |        ^^^^^^^^^^^^
+8 | import unused_mod_7
+9 | import unused_mod_8
+  |
+help: Remove unused import: `unused_mod_6`
+  |
+6 | import unused_mod_5
+  - import unused_mod_6
+7 | import unused_mod_7
+  |
+
+F401 [*] `unused_mod_7` imported but unused
+  --> auth.py:8:8
+   |
+ 6 | import unused_mod_5
+ 7 | import unused_mod_6
+ 8 | import unused_mod_7
+   |        ^^^^^^^^^^^^
+ 9 | import unused_mod_8
+10 | import unused_mod_9
+   |
+help: Remove unused import: `unused_mod_7`
+  |
+7 | import unused_mod_6
+  - import unused_mod_7
+8 | import unused_mod_8
+  |
+
+F401 [*] `unused_mod_8` imported but unused
+  --> auth.py:9:8
+   |
+ 7 | import unused_mod_6
+ 8 | import unused_mod_7
+ 9 | import unused_mod_8
+   |        ^^^^^^^^^^^^
+10 | import unused_mod_9
+11 | import unused_mod_10
+   |
+help: Remove unused import: `unused_mod_8`
+  |
+8 | import unused_mod_7
+  - import unused_mod_8
+9 | import unused_mod_9
+  |
+
+F401 [*] `unused_mod_9` imported but unused
+  --> auth.py:10:8
+   |
+ 8 | import unused_mod_7
+ 9 | import unused_mod_8
+10 | import unused_mod_9
+   |        ^^^^^^^^^^^^
+11 | import unused_mod_10
+12 | import unused_mod_11
+   |
+help: Remove unused import: `unused_mod_9`
+   |
+9  | import unused_mod_8
+   - import unused_mod_9
+10 | import unused_mod_10
+   |
+
+F401 [*] `unused_mod_10` imported but unused
+  --> auth.py:11:8
+   |
+ 9 | import unused_mod_8
+10 | import unused_mod_9
+11 | import unused_mod_10
+   |        ^^^^^^^^^^^^^
+12 | import unused_mod_11
+13 | import unused_mod_12
+   |
+help: Remove unused import: `unused_mod_10`
+   |
+10 | import unused_mod_9
+   - import unused_mod_10
+11 | import unused_mod_11
+   |
+
+F401 [*] `unused_mod_11` imported but unused
+  --> auth.py:12:8
+   |
+10 | import unused_mod_9
+11 | import unused_mod_10
+12 | import unused_mod_11
+   |        ^^^^^^^^^^^^^
+13 | import unused_mod_12
+14 | import unused_mod_13
+   |
+help: Remove unused import: `unused_mod_11`
+   |
+11 | import unused_mod_10
+   - import unused_mod_11
+12 | import unused_mod_12
+   |
+
+F401 [*] `unused_mod_12` imported but unused
+  --> auth.py:13:8
+   |
+11 | import unused_mod_10
+12 | import unused_mod_11
+13 | import unused_mod_12
+   |        ^^^^^^^^^^^^^
+14 | import unused_mod_13
+15 | import unused_mod_14
+   |
+help: Remove unused import: `unused_mod_12`
+   |
+12 | import unused_mod_11
+   - import unused_mod_12
+13 | import unused_mod_13
+   |
+
+F401 [*] `unused_mod_13` imported but unused
+  --> auth.py:14:8
+   |
+12 | import unused_mod_11
+13 | import unused_mod_12
+14 | import unused_mod_13
+   |        ^^^^^^^^^^^^^
+15 | import unused_mod_14
+16 | import unused_mod_15
+   |
+help: Remove unused import: `unused_mod_13`
+   |
+13 | import unused_mod_12
+   - import unused_mod_13
+14 | import unused_mod_14
+   |
+
+F401 [*] `unused_mod_14` imported but unused
+  --> auth.py:15:8
+   |
+13 | import unused_mod_12
+14 | import unused_mod_13
+15 | import unused_mod_14
+   |        ^^^^^^^^^^^^^
+16 | import unused_mod_15
+17 | import unused_mod_16
+   |
+help: Remove unused import: `unused_mod_14`
+   |
+14 | import unused_mod_13
+   - import unused_mod_14
+15 | import unused_mod_15
+   |
+
+F401 [*] `unused_mod_15` imported but unused
+  --> auth.py:16:8
+   |
+14 | import unused_mod_13
+15 | import unused_mod_14
+16 | import unused_mod_15
+   |        ^^^^^^^^^^^^^
+17 | import unused_mod_16
+18 | import unused_mod_17
+   |
+help: Remove unused import: `unused_mod_15`
+   |
+15 | import unused_mod_14
+   - import unused_mod_15
+16 | import unused_mod_16
+   |
+
+F401 [*] `unused_mod_16` imported but unused
+  --> auth.py:17:8
+   |
+15 | import unused_mod_14
+16 | import unused_mod_15
+17 | import unused_mod_16
+   |        ^^^^^^^^^^^^^
+18 | import unused_mod_17
+19 | import unused_mod_18
+   |
+help: Remove unused import: `unused_mod_16`
+   |
+16 | import unused_mod_15
+   - import unused_mod_16
+17 | import unused_mod_17
+   |
+
+F401 [*] `unused_mod_17` imported but unused
+  --> auth.py:18:8
+   |
+16 | import unused_mod_15
+17 | import unused_mod_16
+18 | import unused_mod_17
+   |        ^^^^^^^^^^^^^
+19 | import unused_mod_18
+20 | import unused_mod_19
+   |
+help: Remove unused import: `unused_mod_17`
+   |
+17 | import unused_mod_16
+   - import unused_mod_17
+18 | import unused_mod_18
+   |
+
+F401 [*] `unused_mod_18` imported but unused
+  --> auth.py:19:8
+   |
+17 | import unused_mod_16
+18 | import unused_mod_17
+19 | import unused_mod_18
+   |        ^^^^^^^^^^^^^
+20 | import unused_mod_19
+21 | import unused_mod_20
+   |
+help: Remove unused import: `unused_mod_18`
+   |
+18 | import unused_mod_17
+   - import unused_mod_18
+19 | import unused_mod_19
+   |
+
+F401 [*] `unused_mod_19` imported but unused
+  --> auth.py:20:8
+   |
+18 | import unused_mod_17
+19 | import unused_mod_18
+20 | import unused_mod_19
+   |        ^^^^^^^^^^^^^
+21 | import unused_mod_20
+22 | import unused_mod_21
+   |
+help: Remove unused import: `unused_mod_19`
+   |
+19 | import unused_mod_18
+   - import unused_mod_19
+20 | import unused_mod_20
+   |
+
+F401 [*] `unused_mod_20` imported but unused
+  --> auth.py:21:8
+   |
+19 | import unused_mod_18
+20 | import unused_mod_19
+21 | import unused_mod_20
+   |        ^^^^^^^^^^^^^
+22 | import unused_mod_21
+23 | import unused_mod_22
+   |
+help: Remove unused import: `unused_mod_20`
+   |
+20 | import unused_mod_19
+   - import unused_mod_20
+21 | import unused_mod_21
+   |
+
+F401 [*] `unused_mod_21` imported but unused
+  --> auth.py:22:8
+   |
+20 | import unused_mod_19
+21 | import unused_mod_20
+22 | import unused_mod_21
+   |        ^^^^^^^^^^^^^
+23 | import unused_mod_22
+24 | import unused_mod_23
+   |
+help: Remove unused import: `unused_mod_21`
+   |
+21 | import unused_mod_20
+   - import unused_mod_21
+22 | import unused_mod_22
+   |
+
+F401 [*] `unused_mod_22` imported but unused
+  --> auth.py:23:8
+   |
+21 | import unused_mod_20
+22 | import unused_mod_21
+23 | import unused_mod_22
+   |        ^^^^^^^^^^^^^
+24 | import unused_mod_23
+25 | import unused_mod_24
+   |
+help: Remove unused import: `unused_mod_22`
+   |
+22 | import unused_mod_21
+   - import unused_mod_22
+23 | import unused_mod_23
+   |
+
+F401 [*] `unused_mod_23` imported but unused
+  --> auth.py:24:8
+   |
+22 | import unused_mod_21
+23 | import unused_mod_22
+24 | import unused_mod_23
+   |        ^^^^^^^^^^^^^
+25 | import unused_mod_24
+26 | import unused_mod_25
+   |
+help: Remove unused import: `unused_mod_23`
+   |
+23 | import unused_mod_22
+   - import unused_mod_23
+24 | import unused_mod_24
+   |
+
+F401 [*] `unused_mod_24` imported but unused
+  --> auth.py:25:8
+   |
+23 | import unused_mod_22
+24 | import unused_mod_23
+25 | import unused_mod_24
+   |        ^^^^^^^^^^^^^
+26 | import unused_mod_25
+27 | import unused_mod_26
+   |
+help: Remove unused import: `unused_mod_24`
+   |
+24 | import unused_mod_23
+   - import unused_mod_24
+25 | import unused_mod_25
+   |
+
+F401 [*] `unused_mod_25` imported but unused
+  --> auth.py:26:8
+   |
+24 | import unused_mod_23
+25 | import unused_mod_24
+26 | import unused_mod_25
+   |        ^^^^^^^^^^^^^
+27 | import unused_mod_26
+28 | import unused_mod_27
+   |
+help: Remove unused import: `unused_mod_25`
+   |
+25 | import unused_mod_24
+   - import unused_mod_25
+26 | import unused_mod_26
+   |
+
+F401 [*] `unused_mod_26` imported but unused
+  --> auth.py:27:8
+   |
+25 | import unused_mod_24
+26 | import unused_mod_25
+27 | import unused_mod_26
+   |        ^^^^^^^^^^^^^
+28 | import unused_mod_27
+29 | import unused_mod_28
+   |
+help: Remove unused import: `unused_mod_26`
+   |
+26 | import unused_mod_25
+   - import unused_mod_26
+27 | import unused_mod_27
+   |
+
+F401 [*] `unused_mod_27` imported but unused
+  --> auth.py:28:8
+   |
+26 | import unused_mod_25
+27 | import unused_mod_26
+28 | import unused_mod_27
+   |        ^^^^^^^^^^^^^
+29 | import unused_mod_28
+30 | import unused_mod_29
+   |
+help: Remove unused import: `unused_mod_27`
+   |
+27 | import unused_mod_26
+   - import unused_mod_27
+28 | import unused_mod_28
+   |
+
+F401 [*] `unused_mod_28` imported but unused
+  --> auth.py:29:8
+   |
+27 | import unused_mod_26
+28 | import unused_mod_27
+29 | import unused_mod_28
+   |        ^^^^^^^^^^^^^
+30 | import unused_mod_29
+31 | import unused_mod_30
+   |
+help: Remove unused import: `unused_mod_28`
+   |
+28 | import unused_mod_27
+   - import unused_mod_28
+29 | import unused_mod_29
+   |
+
+F401 [*] `unused_mod_29` imported but unused
+  --> auth.py:30:8
+   |
+28 | import unused_mod_27
+29 | import unused_mod_28
+30 | import unused_mod_29
+   |        ^^^^^^^^^^^^^
+31 | import unused_mod_30
+32 | import unused_mod_31
+   |
+help: Remove unused import: `unused_mod_29`
+   |
+29 | import unused_mod_28
+   - import unused_mod_29
+30 | import unused_mod_30
+   |
+
+F401 [*] `unused_mod_30` imported but unused
+  --> auth.py:31:8
+   |
+29 | import unused_mod_28
+30 | import unused_mod_29
+31 | import unused_mod_30
+   |        ^^^^^^^^^^^^^
+32 | import unused_mod_31
+33 | import unused_mod_32
+   |
+help: Remove unused import: `unused_mod_30`
+   |
+30 | import unused_mod_29
+   - import unused_mod_30
+31 | import unused_mod_31
+   |
+
+F401 [*] `unused_mod_31` imported but unused
+  --> auth.py:32:8
+   |
+30 | import unused_mod_29
+31 | import unused_mod_30
+32 | import unused_mod_31
+   |        ^^^^^^^^^^^^^
+33 | import unused_mod_32
+34 | import unused_mod_33
+   |
+help: Remove unused import: `unused_mod_31`
+   |
+31 | import unused_mod_30
+   - import unused_mod_31
+32 | import unused_mod_32
+   |
+
+F401 [*] `unused_mod_32` imported but unused
+  --> auth.py:33:8
+   |
+31 | import unused_mod_30
+32 | import unused_mod_31
+33 | import unused_mod_32
+   |        ^^^^^^^^^^^^^
+34 | import unused_mod_33
+35 | import unused_mod_34
+   |
+help: Remove unused import: `unused_mod_32`
+   |
+32 | import unused_mod_31
+   - import unused_mod_32
+33 | import unused_mod_33
+   |
+
+F401 [*] `unused_mod_33` imported but unused
+  --> auth.py:34:8
+   |
+32 | import unused_mod_31
+33 | import unused_mod_32
+34 | import unused_mod_33
+   |        ^^^^^^^^^^^^^
+35 | import unused_mod_34
+36 | import unused_mod_35
+   |
+help: Remove unused import: `unused_mod_33`
+   |
+33 | import unused_mod_32
+   - import unused_mod_33
+34 | import unused_mod_34
+   |
+
+F401 [*] `unused_mod_34` imported but unused
+  --> auth.py:35:8
+   |
+33 | import unused_mod_32
+34 | import unused_mod_33
+35 | import unused_mod_34
+   |        ^^^^^^^^^^^^^
+36 | import unused_mod_35
+37 | import unused_mod_36
+   |
+help: Remove unused import: `unused_mod_34`
+   |
+34 | import unused_mod_33
+   - import unused_mod_34
+35 | import unused_mod_35
+   |
+
+F401 [*] `unused_mod_35` imported but unused
+  --> auth.py:36:8
+   |
+34 | import unused_mod_33
+35 | import unused_mod_34
+36 | import unused_mod_35
+   |        ^^^^^^^^^^^^^
+37 | import unused_mod_36
+38 | import unused_mod_37
+   |
+help: Remove unused import: `unused_mod_35`
+   |
+35 | import unused_mod_34
+   - import unused_mod_35
+36 | import unused_mod_36
+   |
+
+F401 [*] `unused_mod_36` imported but unused
+  --> auth.py:37:8
+   |
+35 | import unused_mod_34
+36 | import unused_mod_35
+37 | import unused_mod_36
+   |        ^^^^^^^^^^^^^
+38 | import unused_mod_37
+39 | import unused_mod_38
+   |
+help: Remove unused import: `unused_mod_36`
+   |
+36 | import unused_mod_35
+   - import unused_mod_36
+37 | import unused_mod_37
+   |
+
+F401 [*] `unused_mod_37` imported but unused
+  --> auth.py:38:8
+   |
+36 | import unused_mod_35
+37 | import unused_mod_36
+38 | import unused_mod_37
+   |        ^^^^^^^^^^^^^
+39 | import unused_mod_38
+40 | import unused_mod_39
+   |
+help: Remove unused import: `unused_mod_37`
+   |
+37 | import unused_mod_36
+   - import unused_mod_37
+38 | import unused_mod_38
+   |
+
+F401 [*] `unused_mod_38` imported but unused
+  --> auth.py:39:8
+   |
+37 | import unused_mod_36
+38 | import unused_mod_37
+39 | import unused_mod_38
+   |        ^^^^^^^^^^^^^
+40 | import unused_mod_39
+41 | import unused_mod_40
+   |
+help: Remove unused import: `unused_mod_38`
+   |
+38 | import unused_mod_37
+   - import unused_mod_38
+39 | import unused_mod_39
+   |
+
+F401 [*] `unused_mod_39` imported but unused
+  --> auth.py:40:8
+   |
+38 | import unused_mod_37
+39 | import unused_mod_38
+40 | import unused_mod_39
+   |        ^^^^^^^^^^^^^
+41 | import unused_mod_40
+42 | import unused_mod_41
+   |
+help: Remove unused import: `unused_mod_39`
+   |
+39 | import unused_mod_38
+   - import unused_mod_39
+40 | import unused_mod_40
+   |
+
+F401 [*] `unused_mod_40` imported but unused
+  --> auth.py:41:8
+   |
+39 | import unused_mod_38
+40 | import unused_mod_39
+41 | import unused_mod_40
+   |        ^^^^^^^^^^^^^
+42 | import unused_mod_41
+43 | import unused_mod_42
+   |
+help: Remove unused import: `unused_mod_40`
+   |
+40 | import unused_mod_39
+   - import unused_mod_40
+41 | import unused_mod_41
+   |
+
+F401 [*] `unused_mod_41` imported but unused
+  --> auth.py:42:8
+   |
+40 | import unused_mod_39
+41 | import unused_mod_40
+42 | import unused_mod_41
+   |        ^^^^^^^^^^^^^
+43 | import unused_mod_42
+44 | import unused_mod_43
+   |
+help: Remove unused import: `unused_mod_41`
+   |
+41 | import unused_mod_40
+   - import unused_mod_41
+42 | import unused_mod_42
+   |
+
+F401 [*] `unused_mod_42` imported but unused
+  --> auth.py:43:8
+   |
+41 | import unused_mod_40
+42 | import unused_mod_41
+43 | import unused_mod_42
+   |        ^^^^^^^^^^^^^
+44 | import unused_mod_43
+45 | import unused_mod_44
+   |
+help: Remove unused import: `unused_mod_42`
+   |
+42 | import unused_mod_41
+   - import unused_mod_42
+43 | import unused_mod_43
+   |
+
+F401 [*] `unused_mod_43` imported but unused
+  --> auth.py:44:8
+   |
+42 | import unused_mod_41
+43 | import unused_mod_42
+44 | import unused_mod_43
+   |        ^^^^^^^^^^^^^
+45 | import unused_mod_44
+46 | import unused_mod_45
+   |
+help: Remove unused import: `unused_mod_43`
+   |
+43 | import unused_mod_42
+   - import unused_mod_43
+44 | import unused_mod_44
+   |
+
+F401 [*] `unused_mod_44` imported but unused
+  --> auth.py:45:8
+   |
+43 | import unused_mod_42
+44 | import unused_mod_43
+45 | import unused_mod_44
+   |        ^^^^^^^^^^^^^
+46 | import unused_mod_45
+47 | import unused_mod_46
+   |
+help: Remove unused import: `unused_mod_44`
+   |
+44 | import unused_mod_43
+   - import unused_mod_44
+45 | import unused_mod_45
+   |
+
+F401 [*] `unused_mod_45` imported but unused
+  --> auth.py:46:8
+   |
+44 | import unused_mod_43
+45 | import unused_mod_44
+46 | import unused_mod_45
+   |        ^^^^^^^^^^^^^
+47 | import unused_mod_46
+48 | import unused_mod_47
+   |
+help: Remove unused import: `unused_mod_45`
+   |
+45 | import unused_mod_44
+   - import unused_mod_45
+46 | import unused_mod_46
+   |
+
+F401 [*] `unused_mod_46` imported but unused
+  --> auth.py:47:8
+   |
+45 | import unused_mod_44
+46 | import unused_mod_45
+47 | import unused_mod_46
+   |        ^^^^^^^^^^^^^
+48 | import unused_mod_47
+49 | import unused_mod_48
+   |
+help: Remove unused import: `unused_mod_46`
+   |
+46 | import unused_mod_45
+   - import unused_mod_46
+47 | import unused_mod_47
+   |
+
+F401 [*] `unused_mod_47` imported but unused
+  --> auth.py:48:8
+   |
+46 | import unused_mod_45
+47 | import unused_mod_46
+48 | import unused_mod_47
+   |        ^^^^^^^^^^^^^
+49 | import unused_mod_48
+50 | import unused_mod_49
+   |
+help: Remove unused import: `unused_mod_47`
+   |
+47 | import unused_mod_46
+   - import unused_mod_47
+48 | import unused_mod_48
+   |
+
+F401 [*] `unused_mod_48` imported but unused
+  --> auth.py:49:8
+   |
+47 | import unused_mod_46
+48 | import unused_mod_47
+49 | import unused_mod_48
+   |        ^^^^^^^^^^^^^
+50 | import unused_mod_49
+51 | import unused_mod_50
+   |
+help: Remove unused import: `unused_mod_48`
+   |
+48 | import unused_mod_47
+   - import unused_mod_48
+49 | import unused_mod_49
+   |
+
+F401 [*] `unused_mod_49` imported but unused
+  --> auth.py:50:8
+   |
+48 | import unused_mod_47
+49 | import unused_mod_48
+50 | import unused_mod_49
+   |        ^^^^^^^^^^^^^
+51 | import unused_mod_50
+52 | import unused_mod_51
+   |
+help: Remove unused import: `unused_mod_49`
+   |
+49 | import unused_mod_48
+   - import unused_mod_49
+50 | import unused_mod_50
+   |
+
+F401 [*] `unused_mod_50` imported but unused
+  --> auth.py:51:8
+   |
+49 | import unused_mod_48
+50 | import unused_mod_49
+51 | import unused_mod_50
+   |        ^^^^^^^^^^^^^
+52 | import unused_mod_51
+53 | import unused_mod_52
+   |
+help: Remove unused import: `unused_mod_50`
+   |
+50 | import unused_mod_49
+   - import unused_mod_50
+51 | import unused_mod_51
+   |
+
+F401 [*] `unused_mod_51` imported but unused
+  --> auth.py:52:8
+   |
+50 | import unused_mod_49
+51 | import unused_mod_50
+52 | import unused_mod_51
+   |        ^^^^^^^^^^^^^
+53 | import unused_mod_52
+54 | import unused_mod_53
+   |
+help: Remove unused import: `unused_mod_51`
+   |
+51 | import unused_mod_50
+   - import unused_mod_51
+52 | import unused_mod_52
+   |
+
+F401 [*] `unused_mod_52` imported but unused
+  --> auth.py:53:8
+   |
+51 | import unused_mod_50
+52 | import unused_mod_51
+53 | import unused_mod_52
+   |        ^^^^^^^^^^^^^
+54 | import unused_mod_53
+55 | import unused_mod_54
+   |
+help: Remove unused import: `unused_mod_52`
+   |
+52 | import unused_mod_51
+   - import unused_mod_52
+53 | import unused_mod_53
+   |
+
+F401 [*] `unused_mod_53` imported but unused
+  --> auth.py:54:8
+   |
+52 | import unused_mod_51
+53 | import unused_mod_52
+54 | import unused_mod_53
+   |        ^^^^^^^^^^^^^
+55 | import unused_mod_54
+56 | import unused_mod_55
+   |
+help: Remove unused import: `unused_mod_53`
+   |
+53 | import unused_mod_52
+   - import unused_mod_53
+54 | import unused_mod_54
+   |
+
+F401 [*] `unused_mod_54` imported but unused
+  --> auth.py:55:8
+   |
+53 | import unused_mod_52
+54 | import unused_mod_53
+55 | import unused_mod_54
+   |        ^^^^^^^^^^^^^
+56 | import unused_mod_55
+57 | import unused_mod_56
+   |
+help: Remove unused import: `unused_mod_54`
+   |
+54 | import unused_mod_53
+   - import unused_mod_54
+55 | import unused_mod_55
+   |
+
+F401 [*] `unused_mod_55` imported but unused
+  --> auth.py:56:8
+   |
+54 | import unused_mod_53
+55 | import unused_mod_54
+56 | import unused_mod_55
+   |        ^^^^^^^^^^^^^
+57 | import unused_mod_56
+58 | import unused_mod_57
+   |
+help: Remove unused import: `unused_mod_55`
+   |
+55 | import unused_mod_54
+   - import unused_mod_55
+56 | import unused_mod_56
+   |
+
+F401 [*] `unused_mod_56` imported but unused
+  --> auth.py:57:8
+   |
+55 | import unused_mod_54
+56 | import unused_mod_55
+57 | import unused_mod_56
+   |        ^^^^^^^^^^^^^
+58 | import unused_mod_57
+59 | import unused_mod_58
+   |
+help: Remove unused import: `unused_mod_56`
+   |
+56 | import unused_mod_55
+   - import unused_mod_56
+57 | import unused_mod_57
+   |
+
+F401 [*] `unused_mod_57` imported but unused
+  --> auth.py:58:8
+   |
+56 | import unused_mod_55
+57 | import unused_mod_56
+58 | import unused_mod_57
+   |        ^^^^^^^^^^^^^
+59 | import unused_mod_58
+60 | import unused_mod_59
+   |
+help: Remove unused import: `unused_mod_57`
+   |
+57 | import unused_mod_56
+   - import unused_mod_57
+58 | import unused_mod_58
+   |
+
+F401 [*] `unused_mod_58` imported but unused
+  --> auth.py:59:8
+   |
+57 | import unused_mod_56
+58 | import unused_mod_57
+59 | import unused_mod_58
+   |        ^^^^^^^^^^^^^
+60 | import unused_mod_59
+61 | import unused_mod_60
+   |
+help: Remove unused import: `unused_mod_58`
+   |
+58 | import unused_mod_57
+   - import unused_mod_58
+59 | import unused_mod_59
+   |
+
+F401 [*] `unused_mod_59` imported but unused
+  --> auth.py:60:8
+   |
+58 | import unused_mod_57
+59 | import unused_mod_58
+60 | import unused_mod_59
+   |        ^^^^^^^^^^^^^
+61 | import unused_mod_60
+62 | import unused_mod_61
+   |
+help: Remove unused import: `unused_mod_59`
+   |
+59 | import unused_mod_58
+   - import unused_mod_59
+60 | import unused_mod_60
+   |
+
+F401 [*] `unused_mod_60` imported but unused
+  --> auth.py:61:8
+   |
+59 | import unused_mod_58
+60 | import unused_mod_59
+61 | import unused_mod_60
+   |        ^^^^^^^^^^^^^
+62 | import unused_mod_61
+63 | import unused_mod_62
+   |
+help: Remove unused import: `unused_mod_60`
+   |
+60 | import unused_mod_59
+   - import unused_mod_60
+61 | import unused_mod_61
+   |
+
+F401 [*] `unused_mod_61` imported but unused
+  --> auth.py:62:8
+   |
+60 | import unused_mod_59
+61 | import unused_mod_60
+62 | import unused_mod_61
+   |        ^^^^^^^^^^^^^
+63 | import unused_mod_62
+64 | import unused_mod_63
+   |
+help: Remove unused import: `unused_mod_61`
+   |
+61 | import unused_mod_60
+   - import unused_mod_61
+62 | import unused_mod_62
+   |
+
+F401 [*] `unused_mod_62` imported but unused
+  --> auth.py:63:8
+   |
+61 | import unused_mod_60
+62 | import unused_mod_61
+63 | import unused_mod_62
+   |        ^^^^^^^^^^^^^
+64 | import unused_mod_63
+65 | import unused_mod_64
+   |
+help: Remove unused import: `unused_mod_62`
+   |
+62 | import unused_mod_61
+   - import unused_mod_62
+63 | import unused_mod_63
+   |
+
+F401 [*] `unused_mod_63` imported but unused
+  --> auth.py:64:8
+   |
+62 | import unused_mod_61
+63 | import unused_mod_62
+64 | import unused_mod_63
+   |        ^^^^^^^^^^^^^
+65 | import unused_mod_64
+66 | import unused_mod_65
+   |
+help: Remove unused import: `unused_mod_63`
+   |
+63 | import unused_mod_62
+   - import unused_mod_63
+64 | import unused_mod_64
+   |
+
+F401 [*] `unused_mod_64` imported but unused
+  --> auth.py:65:8
+   |
+63 | import unused_mod_62
+64 | import unused_mod_63
+65 | import unused_mod_64
+   |        ^^^^^^^^^^^^^
+66 | import unused_mod_65
+67 | import unused_mod_66
+   |
+help: Remove unused import: `unused_mod_64`
+   |
+64 | import unused_mod_63
+   - import unused_mod_64
+65 | import unused_mod_65
+   |
+
+F401 [*] `unused_mod_65` imported but unused
+  --> auth.py:66:8
+   |
+64 | import unused_mod_63
+65 | import unused_mod_64
+66 | import unused_mod_65
+   |        ^^^^^^^^^^^^^
+67 | import unused_mod_66
+68 | import unused_mod_67
+   |
+help: Remove unused import: `unused_mod_65`
+   |
+65 | import unused_mod_64
+   - import unused_mod_65
+66 | import unused_mod_66
+   |
+
+F401 [*] `unused_mod_66` imported but unused
+  --> auth.py:67:8
+   |
+65 | import unused_mod_64
+66 | import unused_mod_65
+67 | import unused_mod_66
+   |        ^^^^^^^^^^^^^
+68 | import unused_mod_67
+69 | import unused_mod_68
+   |
+help: Remove unused import: `unused_mod_66`
+   |
+66 | import unused_mod_65
+   - import unused_mod_66
+67 | import unused_mod_67
+   |
+
+F401 [*] `unused_mod_67` imported but unused
+  --> auth.py:68:8
+   |
+66 | import unused_mod_65
+67 | import unused_mod_66
+68 | import unused_mod_67
+   |        ^^^^^^^^^^^^^
+69 | import unused_mod_68
+70 | import unused_mod_69
+   |
+help: Remove unused import: `unused_mod_67`
+   |
+67 | import unused_mod_66
+   - import unused_mod_67
+68 | import unused_mod_68
+   |
+
+F401 [*] `unused_mod_68` imported but unused
+  --> auth.py:69:8
+   |
+67 | import unused_mod_66
+68 | import unused_mod_67
+69 | import unused_mod_68
+   |        ^^^^^^^^^^^^^
+70 | import unused_mod_69
+71 | import unused_mod_70
+   |
+help: Remove unused import: `unused_mod_68`
+   |
+68 | import unused_mod_67
+   - import unused_mod_68
+69 | import unused_mod_69
+   |
+
+F401 [*] `unused_mod_69` imported but unused
+  --> auth.py:70:8
+   |
+68 | import unused_mod_67
+69 | import unused_mod_68
+70 | import unused_mod_69
+   |        ^^^^^^^^^^^^^
+71 | import unused_mod_70
+72 | import unused_mod_71
+   |
+help: Remove unused import: `unused_mod_69`
+   |
+69 | import unused_mod_68
+   - import unused_mod_69
+70 | import unused_mod_70
+   |
+
+F401 [*] `unused_mod_70` imported but unused
+  --> auth.py:71:8
+   |
+69 | import unused_mod_68
+70 | import unused_mod_69
+71 | import unused_mod_70
+   |        ^^^^^^^^^^^^^
+72 | import unused_mod_71
+73 | import unused_mod_72
+   |
+help: Remove unused import: `unused_mod_70`
+   |
+70 | import unused_mod_69
+   - import unused_mod_70
+71 | import unused_mod_71
+   |
+
+F401 [*] `unused_mod_71` imported but unused
+  --> auth.py:72:8
+   |
+70 | import unused_mod_69
+71 | import unused_mod_70
+72 | import unused_mod_71
+   |        ^^^^^^^^^^^^^
+73 | import unused_mod_72
+74 | import unused_mod_73
+   |
+help: Remove unused import: `unused_mod_71`
+   |
+71 | import unused_mod_70
+   - import unused_mod_71
+72 | import unused_mod_72
+   |
+
+F401 [*] `unused_mod_72` imported but unused
+  --> auth.py:73:8
+   |
+71 | import unused_mod_70
+72 | import unused_mod_71
+73 | import unused_mod_72
+   |        ^^^^^^^^^^^^^
+74 | import unused_mod_73
+75 | import unused_mod_74
+   |
+help: Remove unused import: `unused_mod_72`
+   |
+72 | import unused_mod_71
+   - import unused_mod_72
+73 | import unused_mod_73
+   |
+
+F401 [*] `unused_mod_73` imported but unused
+  --> auth.py:74:8
+   |
+72 | import unused_mod_71
+73 | import unused_mod_72
+74 | import unused_mod_73
+   |        ^^^^^^^^^^^^^
+75 | import unused_mod_74
+76 | import unused_mod_75
+   |
+help: Remove unused import: `unused_mod_73`
+   |
+73 | import unused_mod_72
+   - import unused_mod_73
+74 | import unused_mod_74
+   |
+
+F401 [*] `unused_mod_74` imported but unused
+  --> auth.py:75:8
+   |
+73 | import unused_mod_72
+74 | import unused_mod_73
+75 | import unused_mod_74
+   |        ^^^^^^^^^^^^^
+76 | import unused_mod_75
+77 | import unused_mod_76
+   |
+help: Remove unused import: `unused_mod_74`
+   |
+74 | import unused_mod_73
+   - import unused_mod_74
+75 | import unused_mod_75
+   |
+
+F401 [*] `unused_mod_75` imported but unused
+  --> auth.py:76:8
+   |
+74 | import unused_mod_73
+75 | import unused_mod_74
+76 | import unused_mod_75
+   |        ^^^^^^^^^^^^^
+77 | import unused_mod_76
+78 | import unused_mod_77
+   |
+help: Remove unused import: `unused_mod_75`
+   |
+75 | import unused_mod_74
+   - import unused_mod_75
+76 | import unused_mod_76
+   |
+
+F401 [*] `unused_mod_76` imported but unused
+  --> auth.py:77:8
+   |
+75 | import unused_mod_74
+76 | import unused_mod_75
+77 | import unused_mod_76
+   |        ^^^^^^^^^^^^^
+78 | import unused_mod_77
+79 | import unused_mod_78
+   |
+help: Remove unused import: `unused_mod_76`
+   |
+76 | import unused_mod_75
+   - import unused_mod_76
+77 | import unused_mod_77
+   |
+
+F401 [*] `unused_mod_77` imported but unused
+  --> auth.py:78:8
+   |
+76 | import unused_mod_75
+77 | import unused_mod_76
+78 | import unused_mod_77
+   |        ^^^^^^^^^^^^^
+79 | import unused_mod_78
+80 | import unused_mod_79
+   |
+help: Remove unused import: `unused_mod_77`
+   |
+77 | import unused_mod_76
+   - import unused_mod_77
+78 | import unused_mod_78
+   |
+
+F401 [*] `unused_mod_78` imported but unused
+  --> auth.py:79:8
+   |
+77 | import unused_mod_76
+78 | import unused_mod_77
+79 | import unused_mod_78
+   |        ^^^^^^^^^^^^^
+80 | import unused_mod_79
+   |
+help: Remove unused import: `unused_mod_78`
+   |
+78 | import unused_mod_77
+   - import unused_mod_78
+79 | import unused_mod_79
+   |
+
+F401 [*] `unused_mod_79` imported but unused
+  --> auth.py:80:8
+   |
+78 | import unused_mod_77
+79 | import unused_mod_78
+80 | import unused_mod_79
+   |        ^^^^^^^^^^^^^
+help: Remove unused import: `unused_mod_79`
+   |
+79 | import unused_mod_78
+   - import unused_mod_79
+   |
+
+Found 80 errors.
+[*] 80 fixable with `--fix`.

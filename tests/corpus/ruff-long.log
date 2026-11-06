@@ -1,0 +1,418 @@
+F401 [*] `os` imported but unused
+ --> auth.py:1:14
+  |
+1 | import os as unused_0
+  |              ^^^^^^^^
+2 | import os as unused_1
+3 | import os as unused_2
+  |
+help: Remove unused import: `os`
+  |
+  - import os as unused_0
+1 | import os as unused_1
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:2:14
+  |
+1 | import os as unused_0
+2 | import os as unused_1
+  |              ^^^^^^^^
+3 | import os as unused_2
+4 | import os as unused_3
+  |
+help: Remove unused import: `os`
+  |
+1 | import os as unused_0
+  - import os as unused_1
+2 | import os as unused_2
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:3:14
+  |
+1 | import os as unused_0
+2 | import os as unused_1
+3 | import os as unused_2
+  |              ^^^^^^^^
+4 | import os as unused_3
+5 | import os as unused_4
+  |
+help: Remove unused import: `os`
+  |
+2 | import os as unused_1
+  - import os as unused_2
+3 | import os as unused_3
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:4:14
+  |
+2 | import os as unused_1
+3 | import os as unused_2
+4 | import os as unused_3
+  |              ^^^^^^^^
+5 | import os as unused_4
+6 | import os as unused_5
+  |
+help: Remove unused import: `os`
+  |
+3 | import os as unused_2
+  - import os as unused_3
+4 | import os as unused_4
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:5:14
+  |
+3 | import os as unused_2
+4 | import os as unused_3
+5 | import os as unused_4
+  |              ^^^^^^^^
+6 | import os as unused_5
+7 | import os as unused_6
+  |
+help: Remove unused import: `os`
+  |
+4 | import os as unused_3
+  - import os as unused_4
+5 | import os as unused_5
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:6:14
+  |
+4 | import os as unused_3
+5 | import os as unused_4
+6 | import os as unused_5
+  |              ^^^^^^^^
+7 | import os as unused_6
+8 | import os as unused_7
+  |
+help: Remove unused import: `os`
+  |
+5 | import os as unused_4
+  - import os as unused_5
+6 | import os as unused_6
+  |
+
+F401 [*] `os` imported but unused
+ --> auth.py:7:14
+  |
+5 | import os as unused_4
+6 | import os as unused_5
+7 | import os as unused_6
+  |              ^^^^^^^^
+8 | import os as unused_7
+9 | import os as unused_8
+  |
+help: Remove unused import: `os`
+  |
+6 | import os as unused_5
+  - import os as unused_6
+7 | import os as unused_7
+  |
+
+F401 [*] `os` imported but unused
+  --> auth.py:8:14
+   |
+ 6 | import os as unused_5
+ 7 | import os as unused_6
+ 8 | import os as unused_7
+   |              ^^^^^^^^
+ 9 | import os as unused_8
+10 | import os as unused_9
+   |
+help: Remove unused import: `os`
+  |
+7 | import os as unused_6
+  - import os as unused_7
+8 | import os as unused_8
+  |
+
+F401 [*] `os` imported but unused
+  --> auth.py:9:14
+   |
+ 7 | import os as unused_6
+ 8 | import os as unused_7
+ 9 | import os as unused_8
+   |              ^^^^^^^^
+10 | import os as unused_9
+11 | import os as unused_10
+   |
+help: Remove unused import: `os`
+  |
+8 | import os as unused_7
+  - import os as unused_8
+9 | import os as unused_9
+  |
+
+F401 [*] `os` imported but unused
+  --> auth.py:10:14
+   |
+ 8 | import os as unused_7
+ 9 | import os as unused_8
+10 | import os as unused_9
+   |              ^^^^^^^^
+11 | import os as unused_10
+12 | import os as unused_11
+   |
+help: Remove unused import: `os`
+   |
+9  | import os as unused_8
+   - import os as unused_9
+10 | import os as unused_10
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:11:14
+   |
+ 9 | import os as unused_8
+10 | import os as unused_9
+11 | import os as unused_10
+   |              ^^^^^^^^^
+12 | import os as unused_11
+13 | import os as unused_12
+   |
+help: Remove unused import: `os`
+   |
+10 | import os as unused_9
+   - import os as unused_10
+11 | import os as unused_11
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:12:14
+   |
+10 | import os as unused_9
+11 | import os as unused_10
+12 | import os as unused_11
+   |              ^^^^^^^^^
+13 | import os as unused_12
+14 | import os as unused_13
+   |
+help: Remove unused import: `os`
+   |
+11 | import os as unused_10
+   - import os as unused_11
+12 | import os as unused_12
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:13:14
+   |
+11 | import os as unused_10
+12 | import os as unused_11
+13 | import os as unused_12
+   |              ^^^^^^^^^
+14 | import os as unused_13
+15 | import os as unused_14
+   |
+help: Remove unused import: `os`
+   |
+12 | import os as unused_11
+   - import os as unused_12
+13 | import os as unused_13
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:14:14
+   |
+12 | import os as unused_11
+13 | import os as unused_12
+14 | import os as unused_13
+   |              ^^^^^^^^^
+15 | import os as unused_14
+16 | import os as unused_15
+   |
+help: Remove unused import: `os`
+   |
+13 | import os as unused_12
+   - import os as unused_13
+14 | import os as unused_14
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:15:14
+   |
+13 | import os as unused_12
+14 | import os as unused_13
+15 | import os as unused_14
+   |              ^^^^^^^^^
+16 | import os as unused_15
+17 | import os as unused_16
+   |
+help: Remove unused import: `os`
+   |
+14 | import os as unused_13
+   - import os as unused_14
+15 | import os as unused_15
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:16:14
+   |
+14 | import os as unused_13
+15 | import os as unused_14
+16 | import os as unused_15
+   |              ^^^^^^^^^
+17 | import os as unused_16
+18 | import os as unused_17
+   |
+help: Remove unused import: `os`
+   |
+15 | import os as unused_14
+   - import os as unused_15
+16 | import os as unused_16
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:17:14
+   |
+15 | import os as unused_14
+16 | import os as unused_15
+17 | import os as unused_16
+   |              ^^^^^^^^^
+18 | import os as unused_17
+19 | import os as unused_18
+   |
+help: Remove unused import: `os`
+   |
+16 | import os as unused_15
+   - import os as unused_16
+17 | import os as unused_17
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:18:14
+   |
+16 | import os as unused_15
+17 | import os as unused_16
+18 | import os as unused_17
+   |              ^^^^^^^^^
+19 | import os as unused_18
+20 | import os as unused_19
+   |
+help: Remove unused import: `os`
+   |
+17 | import os as unused_16
+   - import os as unused_17
+18 | import os as unused_18
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:19:14
+   |
+17 | import os as unused_16
+18 | import os as unused_17
+19 | import os as unused_18
+   |              ^^^^^^^^^
+20 | import os as unused_19
+21 | import os as unused_20
+   |
+help: Remove unused import: `os`
+   |
+18 | import os as unused_17
+   - import os as unused_18
+19 | import os as unused_19
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:20:14
+   |
+18 | import os as unused_17
+19 | import os as unused_18
+20 | import os as unused_19
+   |              ^^^^^^^^^
+21 | import os as unused_20
+22 | import os as unused_21
+   |
+help: Remove unused import: `os`
+   |
+19 | import os as unused_18
+   - import os as unused_19
+20 | import os as unused_20
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:21:14
+   |
+19 | import os as unused_18
+20 | import os as unused_19
+21 | import os as unused_20
+   |              ^^^^^^^^^
+22 | import os as unused_21
+23 | import os as unused_22
+   |
+help: Remove unused import: `os`
+   |
+20 | import os as unused_19
+   - import os as unused_20
+21 | import os as unused_21
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:22:14
+   |
+20 | import os as unused_19
+21 | import os as unused_20
+22 | import os as unused_21
+   |              ^^^^^^^^^
+23 | import os as unused_22
+24 | import os as unused_23
+   |
+help: Remove unused import: `os`
+   |
+21 | import os as unused_20
+   - import os as unused_21
+22 | import os as unused_22
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:23:14
+   |
+21 | import os as unused_20
+22 | import os as unused_21
+23 | import os as unused_22
+   |              ^^^^^^^^^
+24 | import os as unused_23
+25 | import os as unused_24
+   |
+help: Remove unused import: `os`
+   |
+22 | import os as unused_21
+   - import os as unused_22
+23 | import os as unused_23
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:24:14
+   |
+22 | import os as unused_21
+23 | import os as unused_22
+24 | import os as unused_23
+   |              ^^^^^^^^^
+25 | import os as unused_24
+   |
+help: Remove unused import: `os`
+   |
+23 | import os as unused_22
+   - import os as unused_23
+24 | import os as unused_24
+   |
+
+F401 [*] `os` imported but unused
+  --> auth.py:25:14
+   |
+23 | import os as unused_22
+24 | import os as unused_23
+25 | import os as unused_24
+   |              ^^^^^^^^^
+help: Remove unused import: `os`
+   |
+24 | import os as unused_23
+   - import os as unused_24
+   |
+
+Found 25 errors.
+[*] 25 fixable with `--fix`.

@@ -1,0 +1,165 @@
+{
+  "id": "tsc-long",
+  "dialect": "tsc",
+  "shape": "long pretty false",
+  "window_boundary": "mid-heading",
+  "command": "npx tsc --pretty false --noEmit -p tsconfig.json",
+  "exit_code": 2,
+  "tool": "tsc 5.9.3",
+  "chars": 3151,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.ts",
+        "line": 16,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 17,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 18,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 19,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 20,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 21,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 22,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 23,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 24,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 25,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 26,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 27,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 28,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 29,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 30,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 31,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 32,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 33,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 34,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 35,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 36,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 37,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 38,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 39,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      },
+      {
+        "file": "auth.ts",
+        "line": 40,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      }
+    ]
+  }
+}

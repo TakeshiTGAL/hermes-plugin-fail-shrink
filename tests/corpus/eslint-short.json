@@ -1,0 +1,21 @@
+{
+  "id": "eslint-short",
+  "dialect": "eslint",
+  "shape": "short",
+  "window_boundary": "none",
+  "command": "npx eslint --no-color bad.js",
+  "exit_code": 1,
+  "tool": "eslint 9.39.1",
+  "chars": 159,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "bad.js",
+        "line": 12,
+        "name": "no-unused-vars",
+        "summary": "'unused' is assigned a value but never used"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pytest-xfail",
+  "dialect": "pytest",
+  "shape": "xfail and xpass exit 0",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_m.py",
+  "exit_code": 0,
+  "tool": "pytest 9.1.1",
+  "chars": 130,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "jest-mid-lineno",
+  "dialect": "jest",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "npx jest --colors=false --no-coverage --watchman=false auth.test.js",
+  "exit_code": 1,
+  "tool": "jest 29.7.0",
+  "chars": 2186,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

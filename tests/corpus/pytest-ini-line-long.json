@@ -1,0 +1,21 @@
+{
+  "id": "pytest-ini-line-long",
+  "dialect": "pytest",
+  "shape": "config --tb=line, banner scrolled off",
+  "window_boundary": "mid-traceback",
+  "command": "python -m pytest -q test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 2772,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

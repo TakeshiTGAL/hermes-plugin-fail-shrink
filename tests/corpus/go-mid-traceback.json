@@ -1,0 +1,14 @@
+{
+  "id": "go-mid-traceback",
+  "dialect": "go",
+  "shape": "window cuts a mid-traceback",
+  "window_boundary": "mid-traceback",
+  "command": "go test -count=1 .",
+  "exit_code": 1,
+  "tool": "go 1.27.3",
+  "chars": 2051,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

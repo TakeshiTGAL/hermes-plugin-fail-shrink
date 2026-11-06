@@ -1,0 +1,7 @@
+F                                                                                            [100%]
+============================================= FAILURES =============================================
+E   AssertionError
+/opt/scratch/fs-corpus-src/pytest-helper-line/helper.py:2: AssertionError
+===================================== short test summary info ======================================
+FAILED test_h.py::test_token_expired - AssertionError
+1 failed in 0.00s

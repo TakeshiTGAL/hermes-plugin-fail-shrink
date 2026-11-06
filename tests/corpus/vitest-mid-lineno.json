@@ -1,0 +1,21 @@
+{
+  "id": "vitest-mid-lineno",
+  "dialect": "vitest",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "npx vitest run --reporter=verbose --no-color token.test.js",
+  "exit_code": 1,
+  "tool": "vitest 3.2.4",
+  "chars": 2437,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "token.test.js",
+        "line": null,
+        "name": "later",
+        "summary": "AssertionError: expected 'no' to be 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB…' // Object.is equality"
+      }
+    ]
+  }
+}

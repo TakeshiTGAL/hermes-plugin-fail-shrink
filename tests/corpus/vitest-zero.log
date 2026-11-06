@@ -1,0 +1,10 @@
+
+ RUN  v3.2.4 /opt/scratch/fs-corpus-src/vitest-zero
+
+ ✓ ok.test.js > ok 2ms
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  15:05:14
+   Duration  1.23s (transform 32ms, setup 0ms, collect 25ms, tests 3ms, environment 0ms, prepare 356ms)
+

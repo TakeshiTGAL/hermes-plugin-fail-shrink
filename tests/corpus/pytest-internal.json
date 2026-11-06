@@ -1,0 +1,14 @@
+{
+  "id": "pytest-internal",
+  "dialect": "pytest",
+  "shape": "INTERNALERROR in pytest_configure",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_ok.py",
+  "exit_code": 3,
+  "tool": "pytest 9.1.1",
+  "chars": 1615,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

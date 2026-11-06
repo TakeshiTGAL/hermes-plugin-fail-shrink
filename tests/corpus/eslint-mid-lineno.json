@@ -1,0 +1,14 @@
+{
+  "id": "eslint-mid-lineno",
+  "dialect": "eslint",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "npx eslint --no-color bad.js",
+  "exit_code": 1,
+  "tool": "eslint 9.39.1",
+  "chars": 2050,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

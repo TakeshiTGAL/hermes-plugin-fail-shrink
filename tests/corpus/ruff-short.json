@@ -1,0 +1,21 @@
+{
+  "id": "ruff-short",
+  "dialect": "ruff",
+  "shape": "short",
+  "window_boundary": "none",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 1,
+  "tool": "ruff 0.17.3",
+  "chars": 195,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.py",
+        "line": 12,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      }
+    ]
+  }
+}

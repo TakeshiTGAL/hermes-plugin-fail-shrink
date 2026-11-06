@@ -1,0 +1,21 @@
+{
+  "id": "pytest-xpass-strict",
+  "dialect": "pytest",
+  "shape": "xpass strict",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_s.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 493,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_s.py",
+        "line": null,
+        "name": "test_xpass_strict",
+        "summary": "[XPASS(strict)]"
+      }
+    ]
+  }
+}

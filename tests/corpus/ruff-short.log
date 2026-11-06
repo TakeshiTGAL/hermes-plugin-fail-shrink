@@ -1,0 +1,13 @@
+F401 [*] `os` imported but unused
+  --> auth.py:12:8
+   |
+12 | import os
+   |        ^^
+help: Remove unused import: `os`
+   |
+11 |
+   - import os
+   |
+
+Found 1 error.
+[*] 1 fixable with `--fix`.

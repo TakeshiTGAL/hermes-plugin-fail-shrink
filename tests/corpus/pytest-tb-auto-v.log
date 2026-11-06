@@ -1,0 +1,19 @@
+======================================= test session starts ========================================
+platform darwin -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- /opt/py/.runtime/venv/v0222/bin/python
+rootdir: /opt/scratch/fs-corpus-src/pytest-tb-auto-v
+plugins: anyio-4.15.1
+collecting ... collected 1 item
+
+test_one.py::test_token_expired FAILED                                                       [100%]
+
+============================================= FAILURES =============================================
+________________________________________ test_token_expired ________________________________________
+
+    def test_token_expired():
+>       assert 1 == 2
+E       assert 1 == 2
+
+test_one.py:2: AssertionError
+===================================== short test summary info ======================================
+FAILED test_one.py::test_token_expired - assert 1 == 2
+======================================== 1 failed in 0.01s =========================================

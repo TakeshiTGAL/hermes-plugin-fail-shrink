@@ -1,0 +1,21 @@
+{
+  "id": "pytest-tb-auto-q",
+  "dialect": "pytest",
+  "shape": "--tb=auto -q",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=auto test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 582,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

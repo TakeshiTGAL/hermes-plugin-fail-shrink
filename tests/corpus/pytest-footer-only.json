@@ -1,0 +1,14 @@
+{
+  "id": "pytest-footer-only",
+  "dialect": "pytest",
+  "shape": "only the stats footer is complete in the window",
+  "window_boundary": "footer-only",
+  "command": "python -m pytest -q --tb=line test_huge.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 69800,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

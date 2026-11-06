@@ -1,0 +1,21 @@
+{
+  "id": "cargo-mid-heading",
+  "dialect": "cargo",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "cargo test --offline -- --test-threads=1",
+  "exit_code": 101,
+  "tool": "cargo 1.99.1",
+  "chars": 2320,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "",
+        "line": null,
+        "name": "token_expired",
+        "summary": ""
+      }
+    ]
+  }
+}

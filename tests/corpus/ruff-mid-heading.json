@@ -1,0 +1,21 @@
+{
+  "id": "ruff-mid-heading",
+  "dialect": "ruff",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 1,
+  "tool": "ruff 0.17.3",
+  "chars": 2002,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.py",
+        "line": 12,
+        "name": "",
+        "summary": ""
+      }
+    ]
+  }
+}

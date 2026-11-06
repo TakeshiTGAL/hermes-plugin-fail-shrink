@@ -1,0 +1,165 @@
+{
+  "id": "eslint-long",
+  "dialect": "eslint",
+  "shape": "long",
+  "window_boundary": "mid-heading",
+  "command": "npx eslint --no-color bad.js",
+  "exit_code": 1,
+  "tool": "eslint 9.39.1",
+  "chars": 3207,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "",
+        "line": 16,
+        "name": "no-unused-vars",
+        "summary": "'unused_15' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 17,
+        "name": "no-unused-vars",
+        "summary": "'unused_16' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 18,
+        "name": "no-unused-vars",
+        "summary": "'unused_17' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 19,
+        "name": "no-unused-vars",
+        "summary": "'unused_18' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 20,
+        "name": "no-unused-vars",
+        "summary": "'unused_19' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 21,
+        "name": "no-unused-vars",
+        "summary": "'unused_20' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 22,
+        "name": "no-unused-vars",
+        "summary": "'unused_21' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 23,
+        "name": "no-unused-vars",
+        "summary": "'unused_22' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 24,
+        "name": "no-unused-vars",
+        "summary": "'unused_23' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 25,
+        "name": "no-unused-vars",
+        "summary": "'unused_24' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 26,
+        "name": "no-unused-vars",
+        "summary": "'unused_25' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 27,
+        "name": "no-unused-vars",
+        "summary": "'unused_26' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 28,
+        "name": "no-unused-vars",
+        "summary": "'unused_27' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 29,
+        "name": "no-unused-vars",
+        "summary": "'unused_28' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 30,
+        "name": "no-unused-vars",
+        "summary": "'unused_29' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 31,
+        "name": "no-unused-vars",
+        "summary": "'unused_30' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 32,
+        "name": "no-unused-vars",
+        "summary": "'unused_31' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 33,
+        "name": "no-unused-vars",
+        "summary": "'unused_32' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 34,
+        "name": "no-unused-vars",
+        "summary": "'unused_33' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 35,
+        "name": "no-unused-vars",
+        "summary": "'unused_34' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 36,
+        "name": "no-unused-vars",
+        "summary": "'unused_35' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 37,
+        "name": "no-unused-vars",
+        "summary": "'unused_36' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 38,
+        "name": "no-unused-vars",
+        "summary": "'unused_37' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 39,
+        "name": "no-unused-vars",
+        "summary": "'unused_38' is assigned a value but never used"
+      },
+      {
+        "file": "",
+        "line": 40,
+        "name": "no-unused-vars",
+        "summary": "'unused_39' is assigned a value but never used"
+      }
+    ]
+  }
+}

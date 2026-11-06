@@ -1,0 +1,14 @@
+{
+  "id": "vitest-mid-traceback",
+  "dialect": "vitest",
+  "shape": "window cuts a mid-traceback",
+  "window_boundary": "mid-traceback",
+  "command": "npx vitest run --reporter=verbose --no-color token.test.js",
+  "exit_code": 1,
+  "tool": "vitest 3.2.4",
+  "chars": 2868,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

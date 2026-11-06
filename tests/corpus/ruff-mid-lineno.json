@@ -1,0 +1,14 @@
+{
+  "id": "ruff-mid-lineno",
+  "dialect": "ruff",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 1,
+  "tool": "ruff 0.17.3",
+  "chars": 2049,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

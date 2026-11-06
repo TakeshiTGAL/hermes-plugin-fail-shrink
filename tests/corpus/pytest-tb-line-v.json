@@ -1,0 +1,21 @@
+{
+  "id": "pytest-tb-line-v",
+  "dialect": "pytest",
+  "shape": "--tb=line -v",
+  "window_boundary": "none",
+  "command": "python -m pytest -v --tb=line test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 862,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

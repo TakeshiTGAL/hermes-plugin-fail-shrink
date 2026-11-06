@@ -1,0 +1,14 @@
+{
+  "id": "vitest-long",
+  "dialect": "vitest",
+  "shape": "long",
+  "window_boundary": "mid-traceback",
+  "command": "npx vitest run --reporter=verbose --no-color token.test.js",
+  "exit_code": 1,
+  "tool": "vitest 3.2.4",
+  "chars": 4488,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

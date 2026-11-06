@@ -1,0 +1,14 @@
+{
+  "id": "tsc-mid-traceback",
+  "dialect": "tsc",
+  "shape": "window cuts a mid-traceback",
+  "window_boundary": "mid-traceback",
+  "command": "npx tsc --pretty true --noEmit -p tsconfig.json",
+  "exit_code": 2,
+  "tool": "tsc 5.9.3",
+  "chars": 2085,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

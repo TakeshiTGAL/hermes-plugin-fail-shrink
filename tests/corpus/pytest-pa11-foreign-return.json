@@ -1,0 +1,21 @@
+{
+  "id": "pytest-pa11-foreign-return",
+  "dialect": "pytest",
+  "shape": "preaudit 11: printed ValueError line whose source is return",
+  "window_boundary": "tail",
+  "command": "python -m pytest -q test_token.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 5694,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_token.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "ValueError: nope"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "vitest-short",
+  "dialect": "vitest",
+  "shape": "short",
+  "window_boundary": "none",
+  "command": "npx vitest run --reporter=verbose --no-color token.test.js",
+  "exit_code": 1,
+  "tool": "vitest 3.2.4",
+  "chars": 715,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "token.test.js",
+        "line": null,
+        "name": "token expired",
+        "summary": "AssertionError: expected 1 to be 2 // Object.is equality"
+      }
+    ]
+  }
+}

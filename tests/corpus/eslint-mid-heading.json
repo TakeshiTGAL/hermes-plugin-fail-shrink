@@ -1,0 +1,14 @@
+{
+  "id": "eslint-mid-heading",
+  "dialect": "eslint",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "npx eslint --no-color bad.js",
+  "exit_code": 1,
+  "tool": "eslint 9.39.1",
+  "chars": 2056,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

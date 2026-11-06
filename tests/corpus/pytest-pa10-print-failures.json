@@ -1,0 +1,21 @@
+{
+  "id": "pytest-pa10-print-failures",
+  "dialect": "pytest",
+  "shape": "preaudit 10: printed FAILURES heading, then an absolute path",
+  "window_boundary": "tail",
+  "command": "python -m pytest -q test_token.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 5686,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_token.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 0"
+      }
+    ]
+  }
+}

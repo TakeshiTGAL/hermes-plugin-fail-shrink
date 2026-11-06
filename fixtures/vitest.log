@@ -1,0 +1,191 @@
+
+ RUN  v3.2.4 .
+
+ ✓ token.test.js > keeps session 00 1ms
+ ✓ token.test.js > keeps session 01 0ms
+ ✓ token.test.js > keeps session 02 0ms
+ ✓ token.test.js > keeps session 03 0ms
+ ✓ token.test.js > keeps session 04 0ms
+ ✓ token.test.js > keeps session 05 0ms
+ ✓ token.test.js > keeps session 06 0ms
+ ✓ token.test.js > keeps session 07 0ms
+ ✓ token.test.js > keeps session 08 0ms
+ ✓ token.test.js > keeps session 09 0ms
+ ✓ token.test.js > keeps session 10 0ms
+ ✓ token.test.js > keeps session 11 0ms
+ ✓ token.test.js > keeps session 12 0ms
+ ✓ token.test.js > keeps session 13 0ms
+ ✓ token.test.js > keeps session 14 0ms
+ ✓ token.test.js > keeps session 15 0ms
+ ✓ token.test.js > keeps session 16 0ms
+ ✓ token.test.js > keeps session 17 0ms
+ ✓ token.test.js > keeps session 18 0ms
+ ✓ token.test.js > keeps session 19 0ms
+ ✓ token.test.js > keeps session 20 0ms
+ ✓ token.test.js > keeps session 21 0ms
+ ✓ token.test.js > keeps session 22 0ms
+ ✓ token.test.js > keeps session 23 0ms
+ ✓ token.test.js > keeps session 24 0ms
+ ✓ token.test.js > keeps session 25 0ms
+ ✓ token.test.js > keeps session 26 0ms
+ ✓ token.test.js > keeps session 27 0ms
+ ✓ token.test.js > keeps session 28 0ms
+ ✓ token.test.js > keeps session 29 0ms
+ ✓ token.test.js > keeps session 30 0ms
+ ✓ token.test.js > keeps session 31 0ms
+ ✓ token.test.js > keeps session 32 0ms
+ ✓ token.test.js > keeps session 33 0ms
+ ✓ token.test.js > keeps session 34 0ms
+ ✓ token.test.js > keeps session 35 0ms
+ ✓ token.test.js > keeps session 36 0ms
+ ✓ token.test.js > keeps session 37 0ms
+ ✓ token.test.js > keeps session 38 0ms
+ ✓ token.test.js > keeps session 39 0ms
+ × token.test.js > token expired 11ms
+   → expected 'stale token line\nstale token line\ns…' to be 'fresh token line\nfresh token line\nf…' // Object.is equality
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  token.test.js > token expired
+AssertionError: expected 'stale token line\nstale token line\ns…' to be 'fresh token line\nfresh token line\nf…' // Object.is equality
+
+- Expected
++ Received
+
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+- fresh token line
++ stale token line
+
+ ❯ token.test.js:47:15
+     45|   const got = Array(60).fill('stale token line').join('\n');
+     46|   const want = Array(60).fill('fresh token line').join('\n');
+     47|   expect(got).toBe(want);
+       |               ^
+     48| });
+     49| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 40 passed (41)
+   Start at  05:27:43
+   Duration  440ms (transform 23ms, setup 0ms, collect 10ms, tests 14ms, environment 0ms, prepare 80ms)
+

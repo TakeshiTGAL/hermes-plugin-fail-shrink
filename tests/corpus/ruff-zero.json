@@ -1,0 +1,14 @@
+{
+  "id": "ruff-zero",
+  "dialect": "ruff",
+  "shape": "zero errors",
+  "window_boundary": "none",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 0,
+  "tool": "ruff 0.17.3",
+  "chars": 19,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ruff-long",
+  "dialect": "ruff",
+  "shape": "long",
+  "window_boundary": "mid-traceback",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 1,
+  "tool": "ruff 0.17.3",
+  "chars": 8618,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.py",
+        "line": 21,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      },
+      {
+        "file": "auth.py",
+        "line": 22,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      },
+      {
+        "file": "auth.py",
+        "line": 23,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      },
+      {
+        "file": "auth.py",
+        "line": 24,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      },
+      {
+        "file": "auth.py",
+        "line": 25,
+        "name": "F401",
+        "summary": "`os` imported but unused"
+      }
+    ]
+  }
+}

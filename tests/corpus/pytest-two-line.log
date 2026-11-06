@@ -1,0 +1,10 @@
+FF                                                                                           [100%]
+============================================= FAILURES =============================================
+E   assert 1 == 2
+/opt/scratch/fs-corpus-src/pytest-two-line/test_t.py:2: assert 1 == 2
+E   assert 3 == 4
+/opt/scratch/fs-corpus-src/pytest-two-line/test_t.py:5: assert 3 == 4
+===================================== short test summary info ======================================
+FAILED test_t.py::test_alpha - assert 1 == 2
+FAILED test_t.py::test_beta - assert 3 == 4
+2 failed in 0.00s

@@ -1,0 +1,21 @@
+{
+  "id": "pytest-import-in-test",
+  "dialect": "pytest",
+  "shape": "import error inside a test",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_imp2.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 623,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_imp2.py",
+        "line": null,
+        "name": "test_loads",
+        "summary": "ModuleNotFoundError: No module named 'no_such_mod_zz'"
+      }
+    ]
+  }
+}

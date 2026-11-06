@@ -1,0 +1,21 @@
+{
+  "id": "pytest-mid-heading",
+  "dialect": "pytest",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "python -m pytest -q --tb=short test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 2102,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

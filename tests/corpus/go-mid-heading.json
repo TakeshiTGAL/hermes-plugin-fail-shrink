@@ -1,0 +1,14 @@
+{
+  "id": "go-mid-heading",
+  "dialect": "go",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "go test -count=1 .",
+  "exit_code": 1,
+  "tool": "go 1.27.3",
+  "chars": 2005,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

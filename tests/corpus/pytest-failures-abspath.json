@@ -1,0 +1,21 @@
+{
+  "id": "pytest-failures-abspath",
+  "dialect": "pytest",
+  "shape": "absolute path in the FAILURES block",
+  "window_boundary": "after-failures-abspath",
+  "command": "python -m pytest -q --tb=line test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 473,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

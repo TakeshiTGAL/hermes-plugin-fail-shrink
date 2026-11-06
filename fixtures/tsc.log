@@ -1,0 +1,94 @@
+auth.ts(1,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(2,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(3,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(4,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(5,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(6,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(7,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(8,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(9,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(10,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(11,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(12,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(13,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(14,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(15,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(16,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(17,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(18,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(19,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(20,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(21,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(22,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(23,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(24,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(25,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(26,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(27,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(28,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(29,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(30,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(31,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(32,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(33,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(34,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(35,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(36,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(37,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(38,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(39,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(40,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(41,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(42,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(43,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(44,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(45,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(46,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(47,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(48,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(49,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(50,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(51,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(52,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(53,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(54,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(55,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(56,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(57,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(58,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(59,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(60,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(61,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(62,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(63,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(64,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(65,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(66,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(67,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(68,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(69,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(70,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(71,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(72,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(73,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(74,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(75,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(76,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(77,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(78,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(79,14): error TS2322: Type 'string' is not assignable to type 'number'.
+auth.ts(80,14): error TS2322: Type 'string' is not assignable to type 'number'.
+node_modules/@types/babel__core/index.d.ts(2,31): error TS2792: Cannot find module '@babel/parser'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__core/index.d.ts(5,20): error TS2792: Cannot find module '@babel/types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__core/index.d.ts(10,52): error TS2792: Cannot find module '@babel/parser'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__generator/index.d.ts(1,20): error TS2792: Cannot find module '@babel/types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__template/index.d.ts(1,31): error TS2792: Cannot find module '@babel/parser'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__template/index.d.ts(2,48): error TS2792: Cannot find module '@babel/types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__traverse/index.d.ts(1,20): error TS2792: Cannot find module '@babel/types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/babel__traverse/index.d.ts(361,28): error TS2536: Type '"type"' cannot be used to index type 'T'.
+node_modules/@types/chai/index.d.ts(2,58): error TS2792: Cannot find module 'assertion-error'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/node/http.d.ts(2206,36): error TS2792: Cannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/node/http.d.ts(2210,37): error TS2792: Cannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/node/http.d.ts(2214,39): error TS2792: Cannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/node/web-globals/fetch.d.ts(3,25): error TS2792: Cannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+node_modules/@types/node/worker_threads.d.ts(16,34): error TS2792: Cannot find module 'undici-types'. Did you mean to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?

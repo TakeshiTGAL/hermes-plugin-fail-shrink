@@ -1,0 +1,14 @@
+{
+  "id": "tsc-mid-lineno",
+  "dialect": "tsc",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "npx tsc --pretty true --noEmit -p tsconfig.json",
+  "exit_code": 2,
+  "tool": "tsc 5.9.3",
+  "chars": 2009,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

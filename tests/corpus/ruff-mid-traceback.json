@@ -1,0 +1,14 @@
+{
+  "id": "ruff-mid-traceback",
+  "dialect": "ruff",
+  "shape": "window cuts a mid-traceback",
+  "window_boundary": "mid-traceback",
+  "command": "ruff check --color never auth.py",
+  "exit_code": 1,
+  "tool": "ruff 0.17.3",
+  "chars": 2065,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

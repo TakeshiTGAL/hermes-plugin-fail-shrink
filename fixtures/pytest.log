@@ -1,0 +1,547 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- python
+cachedir: .pytest_cache
+rootdir: .
+plugins: anyio-4.15.1
+collecting ... collected 41 items
+
+tests/test_auth.py::test_ok_00 PASSED                                    [  2%]
+tests/test_auth.py::test_ok_01 PASSED                                    [  4%]
+tests/test_auth.py::test_ok_02 PASSED                                    [  7%]
+tests/test_auth.py::test_ok_03 PASSED                                    [  9%]
+tests/test_auth.py::test_ok_04 PASSED                                    [ 12%]
+tests/test_auth.py::test_ok_05 PASSED                                    [ 14%]
+tests/test_auth.py::test_ok_06 PASSED                                    [ 17%]
+tests/test_auth.py::test_ok_07 PASSED                                    [ 19%]
+tests/test_auth.py::test_ok_08 PASSED                                    [ 21%]
+tests/test_auth.py::test_ok_09 PASSED                                    [ 24%]
+tests/test_auth.py::test_ok_10 PASSED                                    [ 26%]
+tests/test_auth.py::test_ok_11 PASSED                                    [ 29%]
+tests/test_auth.py::test_ok_12 PASSED                                    [ 31%]
+tests/test_auth.py::test_ok_13 PASSED                                    [ 34%]
+tests/test_auth.py::test_ok_14 PASSED                                    [ 36%]
+tests/test_auth.py::test_ok_15 PASSED                                    [ 39%]
+tests/test_auth.py::test_ok_16 PASSED                                    [ 41%]
+tests/test_auth.py::test_ok_17 PASSED                                    [ 43%]
+tests/test_auth.py::test_ok_18 PASSED                                    [ 46%]
+tests/test_auth.py::test_ok_19 PASSED                                    [ 48%]
+tests/test_auth.py::test_ok_20 PASSED                                    [ 51%]
+tests/test_auth.py::test_ok_21 PASSED                                    [ 53%]
+tests/test_auth.py::test_ok_22 PASSED                                    [ 56%]
+tests/test_auth.py::test_ok_23 PASSED                                    [ 58%]
+tests/test_auth.py::test_ok_24 PASSED                                    [ 60%]
+tests/test_auth.py::test_ok_25 PASSED                                    [ 63%]
+tests/test_auth.py::test_ok_26 PASSED                                    [ 65%]
+tests/test_auth.py::test_ok_27 PASSED                                    [ 68%]
+tests/test_auth.py::test_ok_28 PASSED                                    [ 70%]
+tests/test_auth.py::test_ok_29 PASSED                                    [ 73%]
+tests/test_auth.py::test_ok_30 PASSED                                    [ 75%]
+tests/test_auth.py::test_ok_31 PASSED                                    [ 78%]
+tests/test_auth.py::test_ok_32 PASSED                                    [ 80%]
+tests/test_auth.py::test_ok_33 PASSED                                    [ 82%]
+tests/test_auth.py::test_ok_34 PASSED                                    [ 85%]
+tests/test_auth.py::test_ok_35 PASSED                                    [ 87%]
+tests/test_auth.py::test_ok_36 PASSED                                    [ 90%]
+tests/test_auth.py::test_ok_37 PASSED                                    [ 92%]
+tests/test_auth.py::test_ok_38 PASSED                                    [ 95%]
+tests/test_auth.py::test_ok_39 PASSED                                    [ 97%]
+tests/test_auth.py::test_token_expired FAILED                            [100%]
+
+=================================== FAILURES ===================================
+______________________________ test_token_expired ______________________________
+
+    def test_token_expired():
+        print('setup log ' + ('detail ' * 200))
+        got = ('stale token line\n') * 60
+        want = ('fresh token line\n') * 60
+>       assert got == want
+E       AssertionError: assert 'stale token ... token line\n' == 'fresh token ... token line\n'
+E         
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+E         - fresh token line
+E         ? ^^ --
+E         + stale token line
+E         ? ^^^^
+
+tests/test_auth.py:167: AssertionError
+----------------------------- Captured stdout call -----------------------------
+setup log detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail detail 
+=========================== short test summary info ============================
+FAILED tests/test_auth.py::test_token_expired - AssertionError: assert 'stale token ... token line\n' == 'fresh token ... token line\n'
+  
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+  - fresh token line
+  ? ^^ --
+  + stale token line
+  ? ^^^^
+========================= 1 failed, 40 passed in 0.07s =========================

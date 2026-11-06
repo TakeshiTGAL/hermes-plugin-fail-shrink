@@ -1,0 +1,21 @@
+{
+  "id": "pytest-tb-short-x",
+  "dialect": "pytest",
+  "shape": "--tb=short -q -x",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short -x test_two.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 536,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_two.py",
+        "line": null,
+        "name": "test_alpha",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

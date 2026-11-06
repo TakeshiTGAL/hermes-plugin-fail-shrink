@@ -1,0 +1,14 @@
+{
+  "id": "jest-zero",
+  "dialect": "jest",
+  "shape": "zero failures",
+  "window_boundary": "none",
+  "command": "npx jest --colors=false --no-coverage --watchman=false ok.test.js",
+  "exit_code": 0,
+  "tool": "jest 29.7.0",
+  "chars": 196,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

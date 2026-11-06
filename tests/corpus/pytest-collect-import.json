@@ -1,0 +1,21 @@
+{
+  "id": "pytest-collect-import",
+  "dialect": "pytest",
+  "shape": "collection import error",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_imp.py",
+  "exit_code": 2,
+  "tool": "pytest 9.1.1",
+  "chars": 987,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_imp.py",
+        "line": null,
+        "name": "",
+        "summary": ""
+      }
+    ]
+  }
+}

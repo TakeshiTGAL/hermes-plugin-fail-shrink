@@ -1,0 +1,14 @@
+{
+  "id": "eslint-zero",
+  "dialect": "eslint",
+  "shape": "zero errors",
+  "window_boundary": "none",
+  "command": "npx eslint --no-color ok.js",
+  "exit_code": 0,
+  "tool": "eslint 9.39.1",
+  "chars": 0,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

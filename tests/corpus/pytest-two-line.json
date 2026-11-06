@@ -1,0 +1,27 @@
+{
+  "id": "pytest-two-line",
+  "dialect": "pytest",
+  "shape": "--tb=line two failures",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=line test_t.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 585,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_t.py",
+        "line": null,
+        "name": "test_alpha",
+        "summary": "assert 1 == 2"
+      },
+      {
+        "file": "test_t.py",
+        "line": null,
+        "name": "test_beta",
+        "summary": "assert 3 == 4"
+      }
+    ]
+  }
+}

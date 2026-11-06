@@ -1,0 +1,43 @@
+name: fail-shrink
+version: 0.1.0
+manifest_version: 2
+requires_hermes: ">=0.21.4"
+description: >
+  When a pytest, jest, vitest, cargo test, go test, tsc, ruff, or eslint
+  run fails, the output field becomes a short block only when that tool's
+  own summary line is in the text and the cited place is the node id or
+  file on that line. Pytest uses the FAILED and ERROR rows in the last
+  short test summary info section. The stats line closes the section.
+  When pytest cuts the message off a wide summary row, the block uses the
+  E line in that test's failure section and the offset points at that line.
+  Jest, Vitest, cargo, and Go use their summary rows. tsc, Ruff, and
+  ESLint use a complete diagnostic row, which includes the file and the
+  line. The exit code stays on the result. When the summary line is
+  missing, the result stays as Hermes returned it. A process_manage
+  result uses the output Hermes passed. Hermes 0.22.2 keeps the last
+  2000 characters, and a tail with no summary line stays whole. A poll
+  result has output_preview and no output field, so it stays whole. A
+  printed path, a traceback frame, and a helper frame stay out of the
+  block. A pytest node id that contains `..` keeps that path, and the
+  rerun line is omitted. The full log stays under this profile. Success,
+  a short result, an unrecognized failure, and a turn where the person
+  asked to see the whole log stay unchanged. json_shape is off unless
+  the profile sets it true. fail_full is on every platform after enable.
+  hermes tools disable fail-shrink --platform <platform> hides the tool
+  and leaves the hook running. hermes plugins disable fail-shrink stops
+  the hook.
+author: TakeshiTGAL
+license: MIT
+homepage: https://github.com/TakeshiTGAL/hermes-plugin-fail-shrink
+platforms: [linux, macos]
+provides_tools:
+  - fail_full
+provides_hooks:
+  - transform_tool_result
+  - pre_llm_call
+python_dependencies: []
+config_schema:
+  json_shape:
+    type: bool
+    default: false
+    description: "When true, a large JSON tool result becomes a type sketch, the first item, and a path to the saved text."

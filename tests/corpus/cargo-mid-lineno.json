@@ -1,0 +1,21 @@
+{
+  "id": "cargo-mid-lineno",
+  "dialect": "cargo",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "cargo test --offline -- --test-threads=1",
+  "exit_code": 101,
+  "tool": "cargo 1.99.1",
+  "chars": 2376,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "",
+        "line": null,
+        "name": "token_expired",
+        "summary": ""
+      }
+    ]
+  }
+}

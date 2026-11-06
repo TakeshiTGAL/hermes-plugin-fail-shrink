@@ -1,0 +1,21 @@
+{
+  "id": "tsc-short-true",
+  "dialect": "tsc",
+  "shape": "short pretty true",
+  "window_boundary": "none",
+  "command": "npx tsc --pretty true --noEmit -p tsconfig.json",
+  "exit_code": 2,
+  "tool": "tsc 5.9.3",
+  "chars": 154,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.ts",
+        "line": 12,
+        "name": "TS2322",
+        "summary": "Type 'number' is not assignable to type 'string'."
+      }
+    ]
+  }
+}

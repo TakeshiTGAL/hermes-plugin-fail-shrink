@@ -1,0 +1,21 @@
+{
+  "id": "go-short",
+  "dialect": "go",
+  "shape": "short",
+  "window_boundary": "none",
+  "command": "go test -count=1 .",
+  "exit_code": 1,
+  "tool": "go 1.27.3",
+  "chars": 94,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "",
+        "line": null,
+        "name": "TestToken",
+        "summary": ""
+      }
+    ]
+  }
+}

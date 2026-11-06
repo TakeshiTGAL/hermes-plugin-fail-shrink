@@ -1,0 +1,42 @@
+{
+  "pytest": {
+    "command": "python -m pytest -v tests/test_auth.py",
+    "exit": 1,
+    "tool": "pytest 9.1.1"
+  },
+  "jest": {
+    "command": "npx jest --colors=false auth.test.js",
+    "exit": 1,
+    "tool": "jest 29.7.0"
+  },
+  "vitest": {
+    "command": "npx vitest run --reporter=verbose token.test.js",
+    "exit": 1,
+    "tool": "vitest 3.2.4"
+  },
+  "cargo": {
+    "command": "cargo test --offline -- --test-threads=1",
+    "exit": 101,
+    "tool": "cargo 1.99.1"
+  },
+  "go": {
+    "command": "go test -count=1 .",
+    "exit": 1,
+    "tool": "go1.27.3"
+  },
+  "tsc": {
+    "command": "npx tsc --pretty false --noEmit -p tsconfig.json",
+    "exit": 2,
+    "tool": "tsc 5.9.3"
+  },
+  "ruff": {
+    "command": "ruff check --color never auth.py",
+    "exit": 1,
+    "tool": "ruff 0.17.3"
+  },
+  "eslint": {
+    "command": "npx eslint --no-color lint-me.js",
+    "exit": 1,
+    "tool": "eslint 9.39.1"
+  }
+}

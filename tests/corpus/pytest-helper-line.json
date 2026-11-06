@@ -1,0 +1,21 @@
+{
+  "id": "pytest-helper-line",
+  "dialect": "pytest",
+  "shape": "--tb=line helper file",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=line test_h.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 467,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_h.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "AssertionError"
+      }
+    ]
+  }
+}

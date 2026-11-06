@@ -1,0 +1,21 @@
+{
+  "id": "pytest-pa12-foreign-bare",
+  "dialect": "pytest",
+  "shape": "preaudit 12: printed bare AssertionError of another file",
+  "window_boundary": "tail",
+  "command": "python -m pytest -q test_token.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 5696,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_token.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "AssertionError"
+      }
+    ]
+  }
+}

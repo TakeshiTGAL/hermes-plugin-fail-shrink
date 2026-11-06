@@ -1,0 +1,9 @@
+F                                                                                            [100%]
+============================================= FAILURES =============================================
+____________________________________________ test_loads ____________________________________________
+test_imp2.py:2: in test_loads
+    import no_such_mod_zz
+E   ModuleNotFoundError: No module named 'no_such_mod_zz'
+===================================== short test summary info ======================================
+FAILED test_imp2.py::test_loads - ModuleNotFoundError: No module named 'no_such_mod_zz'
+1 failed in 0.02s

@@ -1,0 +1,14 @@
+{
+  "id": "tsc-mid-heading",
+  "dialect": "tsc",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "npx tsc --pretty true --noEmit -p tsconfig.json",
+  "exit_code": 2,
+  "tool": "tsc 5.9.3",
+  "chars": 2013,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

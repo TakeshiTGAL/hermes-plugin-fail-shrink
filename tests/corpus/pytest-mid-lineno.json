@@ -1,0 +1,21 @@
+{
+  "id": "pytest-mid-lineno",
+  "dialect": "pytest",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "python -m pytest -q --tb=short test_one.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 2315,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_one.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+
+ RUN  v3.2.4 /opt/scratch/fs-corpus-src/vitest-short
+
+ × token.test.js > token expired 16ms
+   → expected 1 to be 2 // Object.is equality
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  token.test.js > token expired
+AssertionError: expected 1 to be 2 // Object.is equality
+
+- Expected
++ Received
+
+- 2
++ 1
+
+ ❯ token.test.js:13:41
+     11| 
+     12| import {expect, test} from 'vitest';
+     13| test('token expired', () => { expect(1).toBe(2); });
+       |                                         ^
+     14| 
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed (1)
+   Start at  15:05:09
+   Duration  1.12s (transform 35ms, setup 0ms, collect 17ms, tests 17ms, environment 0ms, prepare 132ms)
+

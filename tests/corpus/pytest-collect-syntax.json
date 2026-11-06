@@ -1,0 +1,21 @@
+{
+  "id": "pytest-collect-syntax",
+  "dialect": "pytest",
+  "shape": "collection syntax error",
+  "window_boundary": "none",
+  "command": "python -m pytest -q --tb=short test_syn.py",
+  "exit_code": 2,
+  "tool": "pytest 9.1.1",
+  "chars": 1932,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_syn.py",
+        "line": null,
+        "name": "",
+        "summary": ""
+      }
+    ]
+  }
+}

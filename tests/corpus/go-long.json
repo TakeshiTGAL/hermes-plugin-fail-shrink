@@ -1,0 +1,14 @@
+{
+  "id": "go-long",
+  "dialect": "go",
+  "shape": "long",
+  "window_boundary": "mid-traceback",
+  "command": "go test -count=1 .",
+  "exit_code": 1,
+  "tool": "go 1.27.3",
+  "chars": 2276,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

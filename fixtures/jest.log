@@ -1,0 +1,186 @@
+FAIL ./auth.test.js
+  ✓ keeps session 00 (1 ms)
+  ✓ keeps session 01 (1 ms)
+  ✓ keeps session 02
+  ✓ keeps session 03
+  ✓ keeps session 04
+  ✓ keeps session 05
+  ✓ keeps session 06
+  ✓ keeps session 07
+  ✓ keeps session 08
+  ✓ keeps session 09
+  ✓ keeps session 10
+  ✓ keeps session 11 (1 ms)
+  ✓ keeps session 12
+  ✓ keeps session 13
+  ✓ keeps session 14
+  ✓ keeps session 15
+  ✓ keeps session 16
+  ✓ keeps session 17
+  ✓ keeps session 18
+  ✓ keeps session 19 (1 ms)
+  ✓ keeps session 20
+  ✓ keeps session 21
+  ✓ keeps session 22
+  ✓ keeps session 23
+  ✓ keeps session 24
+  ✓ keeps session 25
+  ✓ keeps session 26
+  ✓ keeps session 27
+  ✓ keeps session 28 (1 ms)
+  ✓ keeps session 29
+  ✓ keeps session 30
+  ✓ keeps session 31
+  ✓ keeps session 32
+  ✓ keeps session 33
+  ✓ keeps session 34
+  ✓ keeps session 35
+  ✓ keeps session 36
+  ✓ keeps session 37
+  ✓ keeps session 38 (1 ms)
+  ✓ keeps session 39
+  ✕ token expired (8 ms)
+
+  ● token expired
+
+    expect(received).toBe(expected) // Object.is equality
+
+    - Expected  - 60
+    + Received  + 60
+
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+    - fresh token line
+    + stale token line
+
+      45 |   const got = Array(60).fill('stale token line').join('\n');
+      46 |   const want = Array(60).fill('fresh token line').join('\n');
+    > 47 |   expect(got).toBe(want);
+         |               ^
+      48 | });
+      49 |
+      50 |
+
+      at Object.toBe (auth.test.js:47:15)
+
+Test Suites: 1 failed, 1 total
+Tests:       1 failed, 40 passed, 41 total
+Snapshots:   0 total
+Time:        0.203 s, estimated 1 s
+Ran all test suites matching /auth.test.js/i.

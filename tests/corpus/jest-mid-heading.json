@@ -1,0 +1,14 @@
+{
+  "id": "jest-mid-heading",
+  "dialect": "jest",
+  "shape": "window cuts a mid-heading",
+  "window_boundary": "mid-heading",
+  "command": "npx jest --colors=false --no-coverage --watchman=false auth.test.js",
+  "exit_code": 1,
+  "tool": "jest 29.7.0",
+  "chars": 2002,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

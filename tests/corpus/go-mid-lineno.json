@@ -1,0 +1,14 @@
+{
+  "id": "go-mid-lineno",
+  "dialect": "go",
+  "shape": "window cuts a mid-lineno",
+  "window_boundary": "mid-lineno",
+  "command": "go test -count=1 .",
+  "exit_code": 1,
+  "tool": "go 1.27.3",
+  "chars": 2046,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

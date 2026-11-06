@@ -1,0 +1,21 @@
+{
+  "id": "jest-short",
+  "dialect": "jest",
+  "shape": "short",
+  "window_boundary": "none",
+  "command": "npx jest --colors=false --no-coverage --watchman=false auth.test.js",
+  "exit_code": 1,
+  "tool": "jest 29.7.0",
+  "chars": 516,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "auth.test.js",
+        "line": null,
+        "name": "token expired",
+        "summary": ""
+      }
+    ]
+  }
+}

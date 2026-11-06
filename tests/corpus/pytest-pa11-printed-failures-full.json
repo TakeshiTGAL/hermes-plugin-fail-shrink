@@ -1,0 +1,21 @@
+{
+  "id": "pytest-pa11-printed-failures-full",
+  "dialect": "pytest",
+  "shape": "preaudit 11: real crash line, then a printed FAILURES heading",
+  "window_boundary": "tail",
+  "command": "python -m pytest -q test_token.py",
+  "exit_code": 1,
+  "tool": "pytest 9.1.1",
+  "chars": 5882,
+  "answer": {
+    "verdict": "shrink",
+    "items": [
+      {
+        "file": "test_token.py",
+        "line": null,
+        "name": "test_token_expired",
+        "summary": "assert 1 == 0"
+      }
+    ]
+  }
+}

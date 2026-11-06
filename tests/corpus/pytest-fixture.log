@@ -1,0 +1,9 @@
+E                                                                                            [100%]
+============================================== ERRORS ==============================================
+___________________________________ ERROR at setup of test_needs ___________________________________
+test_fix.py:5: in need
+    raise RuntimeError('fixture broke')
+E   RuntimeError: fixture broke
+===================================== short test summary info ======================================
+ERROR test_fix.py::test_needs - RuntimeError: fixture broke
+1 error in 0.01s

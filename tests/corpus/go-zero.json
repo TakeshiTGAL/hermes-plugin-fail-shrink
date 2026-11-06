@@ -1,0 +1,14 @@
+{
+  "id": "go-zero",
+  "dialect": "go",
+  "shape": "zero failures",
+  "window_boundary": "none",
+  "command": "go test -count=1 .",
+  "exit_code": 0,
+  "tool": "go 1.27.3",
+  "chars": 17,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}

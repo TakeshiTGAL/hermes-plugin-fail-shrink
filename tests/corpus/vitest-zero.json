@@ -1,0 +1,14 @@
+{
+  "id": "vitest-zero",
+  "dialect": "vitest",
+  "shape": "zero failures",
+  "window_boundary": "none",
+  "command": "npx vitest run --reporter=verbose --no-color ok.test.js",
+  "exit_code": 0,
+  "tool": "vitest 3.2.4",
+  "chars": 257,
+  "answer": {
+    "verdict": "unchanged",
+    "items": []
+  }
+}
